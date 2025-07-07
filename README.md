@@ -39,7 +39,7 @@ To run the project locally:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/syedthedev/weather-app.git
 
 # 2. Navigate into the project
 cd weather-app
