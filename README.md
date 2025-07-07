@@ -1,12 +1,54 @@
-# React + Vite App App
+# ⛅ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and stylish **React Weather App** built with `Vite`, `Axios`, and `React Hot Toast`.  
+It fetches real-time weather data using the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+🌐 [Click to View Live](https://pro-react-weather.netlify.app/)  
+*(Will open in a new tab)*
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Features
+
+- 🌍 Get real-time weather for any city
+- 🌡 Displays temperature in Fahrenheit
+- 💧 Humidity and condition description
+- 🌦 Weather icons via emoji
+- 🔥 Error handling with `react-hot-toast`
+- ✅ Clean and responsive UI with blur effect
+
+---
+
+## 🛠 Tech Stack
+
+- **React (Vite)**
+- **Axios** – for fetching weather data
+- **OpenWeatherMap API**
+- **React Hot Toast** – user-friendly error messages
+- **CSS** – modern and minimal design
+
+---
+
+## 📦 Installation
+
+To run the project locally:
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/your-username/weather-app.git
+
+# 2. Navigate into the project
+cd weather-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Create a .env file with your API key
+echo "VITE_API_KEY=your_api_key_here" > .env
+
+# 5. Start the development server
+npm run dev
